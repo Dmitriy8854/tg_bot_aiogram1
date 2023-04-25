@@ -1,0 +1,2 @@
+BOT_API_TOKEN = '6154628706:AAE-Mtj_1AcMpzdleUT7FURsGn331JK9SZk'
+open_weather_token = '2e5e9b911cb312dca1867c57ea705973'
