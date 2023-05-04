@@ -231,7 +231,7 @@ async def get_weather(message: types.Message):
        #await message.reply('Проверьте название города')
         response = requests.get(URL).json()
         random_cat_url = response[0].get('url') 
-        if message.text == 'картинка':
+        if message.text == 'кот':
             await bot.send_photo(chat_id=message.from_user.id, photo=random_cat_url)
           #  await bot.send_message(chat_id=message.chat.id, text='Hello!')
        #  if message.text == 'дрочить':
